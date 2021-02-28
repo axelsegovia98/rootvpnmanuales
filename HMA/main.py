@@ -37,3 +37,5 @@ if __name__ == "__main__":
             for platform in countries[data]:
                 try:
                     subprocess.call("python main.py --c {isocode} --o scraping {platform}".format(isocode=platform['Country'], platform=platform['PlatformCode']), shell=True)
+                except:
+                    fix_platforms.append(platform['PlatformCode'])
