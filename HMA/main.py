@@ -19,7 +19,10 @@ subprocess.call(r"env\scripts\activate", shell=True) #Se supone que con esto me 
 
 
 def cambiarPaisVPN(pais):
-    #Se clickea HMA en la barra de tareas. Tiene que estar abajo del ícono de WSP
+    
+    #pyautogui.position() #Para ir viendo en que posición está el mouse
+    
+    #Se clickea HMA en la barra de tareas. Tiene que estar abajo del ícono de WSP (en mi caso)
     pyautogui.click(31,335)
     time.sleep(1)
     #Se clickea el botón de los países
@@ -30,7 +33,7 @@ def cambiarPaisVPN(pais):
     #Se clickea el pais
     pyautogui.click(950, 458)
     time.sleep(20)
-    #Se clickea HMA en la barra de tareas. Tiene que estar abajo del ícono de WSP
+    #Se clickea HMA en la barra de tareas. Tiene que estar abajo del ícono de WSP (en mi caso)
     pyautogui.click(31,335)
 
 
