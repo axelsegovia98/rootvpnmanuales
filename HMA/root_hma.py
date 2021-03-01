@@ -42,7 +42,7 @@ if __name__ == "__main__": #Santi ayudame no sé para que sirve esto pero sirve 
     args = parser.parse_args()
     developer = args.d
     
-    json_path = r'.\rootPreciosHMA.json' #Se guarda la ruta del json que contiene la información de las plataformas a ejecutarse 
+    json_path = r'.\rootPreciosH.json' #Se guarda la ruta del json que contiene la información de las plataformas a ejecutarse 
     with open(json_path, 'r') as file: #Se abre y se guarda el json en la variable json_file
         json_file = json.load(file)
     
