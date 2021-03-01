@@ -1,4 +1,22 @@
 [
+    { "CM":
+        [
+            {
+                "PlatformCode": "AmazonPrimeCM",
+                "Process"     : "scraping",
+                "Country"     : "CM",
+                "CountryVPN"  : "CM",
+                "VPN"         : true
+            },
+            {
+                "PlatformCode": "IrokoCM",
+                "Process"     : "scraping",
+                "Country"     : "CM",
+                "CountryVPN"  : "CM",
+                "VPN"         : true
+            }
+        ]
+    },
     { "DO":
         [
             {
@@ -6,6 +24,144 @@
                 "Process"     : "scraping",
                 "Country"     : "DO",
                 "CountryVPN"  : "DO",
+                "VPN"         : true
+            },
+            {
+                "PlatformCode": "DisneyPlusDO",
+                "Process"     : "scraping",
+                "Country"     : "DO",
+                "CountryVPN"  : "DO",
+                "VPN"         : true
+            }
+        ]
+    },
+    { "KW":
+        [
+            {
+                "PlatformCode": "StarzPlayKW",
+                "Process"     : "scraping",
+                "Country"     : "KW",
+                "CountryVPN"  : "KW",
+                "VPN"         : true
+            },
+            {
+                "PlatformCode": "ShahidPlusKW",
+                "Process"     : "scraping",
+                "Country"     : "KW",
+                "CountryVPN"  : "KW",
+                "VPN"         : true
+            },
+            {
+                "PlatformCode": "ViuKW",
+                "Process"     : "scraping",
+                "Country"     : "KW",
+                "CountryVPN"  : "KW",
+                "VPN"         : true
+            },
+            {
+                "PlatformCode": "OsnKW",
+                "Process"     : "scraping",
+                "Country"     : "KW",
+                "CountryVPN"  : "KW",
+                "VPN"         : true
+            },
+            {
+                "PlatformCode": "ErosNowKW",
+                "Process"     : "scraping",
+                "Country"     : "KW",
+                "CountryVPN"  : "KW",
+                "VPN"         : true
+            }
+        ]
+    },
+    { "LB":
+        [
+            {
+                "PlatformCode": "ShahidPlusLB",
+                "Process"     : "scraping",
+                "Country"     : "LB",
+                "CountryVPN"  : "LB",
+                "VPN"         : true
+            },
+            {
+                "PlatformCode": "OsnLB",
+                "Process"     : "scraping",
+                "Country"     : "LB",
+                "CountryVPN"  : "LB",
+                "VPN"         : true
+            },
+            {
+                "PlatformCode": "AmazonPrimeLB",
+                "Process"     : "scraping",
+                "Country"     : "LB",
+                "CountryVPN"  : "LB",
+                "VPN"         : true
+            },
+            {
+                "PlatformCode": "WeyyakLB",
+                "Process"     : "scraping",
+                "Country"     : "LB",
+                "CountryVPN"  : "LB",
+                "VPN"         : true
+            },
+            {
+                "PlatformCode": "BeinConnectLB",
+                "Process"     : "scraping",
+                "Country"     : "LB",
+                "CountryVPN"  : "LB",
+                "VPN"         : true
+            },
+            {
+                "PlatformCode": "NetflixLB",
+                "Process"     : "scraping",
+                "Country"     : "LB",
+                "CountryVPN"  : "LB",
+                "VPN"         : true
+            },
+            {
+                "PlatformCode": "ErosNowLB",
+                "Process"     : "scraping",
+                "Country"     : "LB",
+                "CountryVPN"  : "LB",
+                "VPN"         : true
+            }
+        ]
+    },
+    { "SV":
+        [
+            {
+                "PlatformCode": "AmazonPrimeSV",
+                "Process"     : "scraping",
+                "Country"     : "SV",
+                "CountryVPN"  : "SV",
+                "VPN"         : true
+            },
+            {
+                "PlatformCode": "DisneyPlusSV",
+                "Process"     : "scraping",
+                "Country"     : "SV",
+                "CountryVPN"  : "SV",
+                "VPN"         : true
+            },
+            {
+                "PlatformCode": "CrunchyrollSV",
+                "Process"     : "scraping",
+                "Country"     : "SV",
+                "CountryVPN"  : "SV",
+                "VPN"         : true
+            },
+            {
+                "PlatformCode": "ErosNowSV",
+                "Process"     : "scraping",
+                "Country"     : "SV",
+                "CountryVPN"  : "SV",
+                "VPN"         : true
+            },
+            {
+                "PlatformCode": "BlimSV",
+                "Process"     : "scraping",
+                "Country"     : "SV",
+                "CountryVPN"  : "SV",
                 "VPN"         : true
             }
         ]
