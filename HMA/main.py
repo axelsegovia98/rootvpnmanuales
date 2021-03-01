@@ -15,7 +15,7 @@ with open(json_path, 'r') as file: #Se abre y se guarda el json en la variable j
     
 wd = os.getcwd() #Santi ayudame no sé para que sirve esto pero sirve
 os.chdir(r"C:\Users\axels\Documents\GitHub\plans-and-prices") #Ruta que contiene al proyecto
-subprocess.call(r"env\scripts\activate", shell=True) #Se supone que con esto me evito activar el env, pero me equivoque un día y me instalé todas las bibliotecas sin usar el env
+subprocess.call(r"env\scripts\activate", shell=True) #Se supone que con esto me evito activar el env, pero me equivoque un día y me instalé todas las bibliotecas sin usar el env así que no se si funciona
 
 
 def cambiarPaisVPN(pais):
